@@ -1,6 +1,7 @@
 name: "CodeQL Scan"
 
 on:
+  push:
   workflow_dispatch:
   pull_request:
 
